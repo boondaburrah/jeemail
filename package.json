@@ -1,0 +1,19 @@
+{
+  "name": "jeemail",
+  "version": "0.1.0",
+  "description": "webmail proof of concept",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boondaburrah/jeemail.git"
+  },
+  "author": "Luke Berry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boondaburrah/jeemail/issues"
+  },
+  "homepage": "https://github.com/boondaburrah/jeemail#readme"
+}
