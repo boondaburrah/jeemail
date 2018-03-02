@@ -2,9 +2,10 @@
   "name": "jeemail",
   "version": "0.1.0",
   "description": "webmail proof of concept",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "test": "faucet"
+    "make": "browserify -t [ babelify ] src/main.js -o build/app.js",
+    "test": "babel-tape-runner test/**/*.js | faucet"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,13 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-tape-runner": "^2.0.1",
+    "babelify": "^8.0.0",
     "faucet": "0.0.1",
+    "flow-bin": "^0.66.0",
     "tape": "^4.9.0"
   }
 }
