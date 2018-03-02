@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/boondaburrah/jeemail/issues"
   },
-  "homepage": "https://github.com/boondaburrah/jeemail#readme"
+  "homepage": "https://github.com/boondaburrah/jeemail#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.9.0"
+  }
 }
