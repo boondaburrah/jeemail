@@ -1,14 +1,9 @@
 // @flow
 import React from "react";
 import ReactDOM from "react-dom";
+import AppUI from "./uiPC";
 
-function ApplicationRoot(){
-    return (<div>Hello World!</div>);
-}
-
-if(document) {
-    const rootElement = document.getElementById("approot");
-    if(rootElement){
-        ReactDOM.render(<ApplicationRoot/>, rootElement);
-    }
+const rootElement = document.getElementById("approot");
+if(rootElement){
+    ReactDOM.render(<AppUI/>, rootElement);
 }
