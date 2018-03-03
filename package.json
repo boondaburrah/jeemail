@@ -4,7 +4,7 @@
   "description": "webmail proof of concept",
   "main": "app.js",
   "scripts": {
-    "make": "browserify -t [ babelify ] src/main.js -o build/app.js",
+    "make": "browserify -t [ babelify ] src/main.js -o public/app.js",
     "test": "babel-tape-runner test/**/*.js | faucet"
   },
   "repository": {
